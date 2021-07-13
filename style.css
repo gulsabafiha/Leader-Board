@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #f3f1ff;
+}
+/* header section  */
+header {
+  width: 1440px;
+  height: 94px;
+  background: #562eff;
+}
+nav{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding-top: 26px;
+}
+.one ,.two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav span,a{
+  color: #ffffff;
+  text-align: center;
+}
+nav span{
+  padding-left: 25px;
+ padding-bottom: -4rem;
+}
+nav a{
+  text-decoration: none;
+  padding-bottom: -2rem;
+  padding-right: 2rem;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.icon img{
+  width: 40.42px;
+height: 51px;
+}
+
+/* first section */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 36px;
+}
+section {
+  background: #ffffff;
+  width: 870px;
+  height: 679px;
+}
+section h2 {
+  color: #562eff;
+  margin-top: 33px;
+  margin-bottom: 40px;
+}
+/* top-players */
+.top-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 29px;
+}
+.players img {
+  width: 56px;
+  height: 56px;
+  padding-right: 16px;
+}
+.players {
+  display: flex;
+  align-items: center;
+}
+hr {
+  border: 1px solid #d1d1d1;
+  margin-top: 30px;
+}
+
+/* top-blogs */
+.second {
+  height: 362 px;
+  width: 870px;
+}
+.top-blog {
+  margin-top: 30px;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 26px;
+}
+.blog-sec {
+  display: flex;
+  justify-content: center;
+}
+.blog-img {
+  margin-right: 16px;
+}
+.blog-img img {
+  width: 224px;
+  height: 127px;
+}
+.content h3 {
+  font-size: 20px;
+}
+.blog-author .blog-title {
+  color: #9f9f9f;
+}
+.blog-author a {
+  color: #562eff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.second {
+  margin-top: 20px;
+}
+.course {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.course-content {
+  margin-right: 24px;
+}
+.course-img img {
+  width: 224px;
+  height: 104px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.info h4 {
+  font-weight: 400;
+  font-size: 14.6913px;
+  color: #ed6b4f;
+  padding: 8px 0;
+}
+.icon .fa-star {
+  color: #ffc014;
+  padding-top: 19px;
+}
+.time {
+  color: #ff4a60;
+  background-color: #ff4a5f1c;
+  padding: 8px;
+  border-radius: 25px;
+}
